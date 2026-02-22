@@ -1,0 +1,234 @@
+## INSTRUÇÕES DE PREENCHIMENTO
+## Substitua todos os campos marcados com [COLCHETES] pelos dados do seu evento.
+## Remova esta seção de instruções antes de enviar ao modelo.
+## Os campos marcados com (*) são obrigatórios para análise mínima.
+## Os campos marcados com (**) são recomendados para análise completa.
+________________________________________
+
+1. CONTEXTO GERAL
+
+1.1 Dados da Edição Histórica (ano anterior) (*)
+Arquivos de Referência:
+•	[NOME-DO-ARQUIVO-RESULTADOS] - Resultados dos participantes que concluíram a prova
+•	[NOME-DA-IMAGEM-LARGADA] - Posicionamento dos participantes e ambulâncias no momento da largada
+
+Indicadores Operacionais:
+•	Total de concluintes registrados: [NÚMERO] participantes
+•	Estimativa ajustada: até [NÚMERO] pessoas (incluindo caminhada, não-concluintes e não-inscritos)
+•	Recursos médicos: [NÚMERO] ambulâncias ([descreva a distribuição: fixa/móvel])
+•	Equipe de bombeiros: [NÚMERO] voluntários em [descreva a distribuição: ponto fixo/móvel]
+•	Equipe operacional: [NÚMERO] staffs em atuação [descreva as funções principais]
+•	Logística antecipada: [PERCENTUAL]% da entrega de kits realizada com antecedência
+
+Condições Climáticas da Edição Histórica: (**)
+•	Temperatura média no dia do evento: [°C]
+•	Condição: [ex: ensolarado / parcialmente nublado / com chuva]
+•	Horário de início: [HH:MM]
+
+Incidentes Registrados: (*)
+•	[Liste os incidentes ocorridos. Se não houver: "Nenhum incidente registrado."]
+
+1.2 Dados da Edição Atual (planejamento) (*)
+Arquivos de Referência:
+•	[NOME-DO-ARQUIVO-REGULAMENTO] - Informações de data e local do evento
+•	[NOME-DO-ARQUIVO-INSCRITOS] - Base de participantes inscritos (anonimizada conforme LGPD nº 13.709/2018, contendo apenas: data de nascimento, sexo e cidade)
+•	[NOME-DO-ARQUIVO-MAPA-PERCURSO] - Mapa do percurso de [DISTÂNCIA]km gerado via [FERRAMENTA]
+•	[NOME-DO-ARQUIVO-ALTIMETRIA] - Dados altimétricos do percurso gerados via [FERRAMENTA]
+•	[NOME-DO-ARQUIVO-GRADIENTE] - Representação visual da inclinação do terreno
+
+Indicadores Projetados:
+•	Total de inscritos confirmados: [NÚMERO] participantes (distribuídos entre [MODALIDADES])
+•	Observação: não contabiliza corredores não-inscritos
+
+Condições Climáticas Previstas: (**)
+•	Temperatura prevista para o dia do evento: [°C]
+•	Condição prevista: [ex: ensolarado / parcialmente nublado / probabilidade de chuva XX%]
+•	Horário de início: [HH:MM]
+•	Exposição solar no percurso: [ex: trecho inicial sem sombra / percurso majoritariamente sombreado]
+
+Restrições Orçamentárias: (**)
+•	Orçamento disponível para recursos adicionais de segurança: R$ [VALOR] (ou "não informado")
+•	Prioridade de alocação: [ex: recursos médicos / staffs operacionais / equipamentos]
+•	Restrições específicas: [ex: bombeiros apenas voluntários / ambulâncias via convênio com prefeitura]
+
+Limiares de Risco de Inclinação para este Evento: (**)
+Defina os limiares adequados ao perfil do seu evento. Se não souber, deixe em branco
+e o modelo utilizará os valores padrão da literatura técnica.
+•	Subida crítica (risco cardíaco): > [%] de inclinação (padrão: 8%)
+•	Descida crítica (risco de queda): > [%] de inclinação (padrão: 10%)
+•	Observação sobre o perfil dos participantes: [ex: maioria amadores / presença significativa de atletas masters / evento inclusivo com muitos iniciantes]
+
+________________________________________
+2. PROBLEMAS PRIORITÁRIOS
+
+2.1 Deficiência de Atendimento Médico
+Contexto: [Descreva o contexto específico — ex: "Embora não tenham ocorrido acidentes críticos na edição anterior, o organizador considera este ponto prioritário para mitigação de riscos relacionados a lesões durante o percurso."]
+
+Questões a serem respondidas:
+a) Posicionamento de Ambulância Adicional
+•	Analisando [ARQUIVO-MAPA], [ARQUIVO-ALTIMETRIA] e [ARQUIVO-GRADIENTE], qual o ponto estratégico para alocação de uma ambulância adicional considerando a distribuição de corredores e zonas de risco?
+
+b) Dimensionamento de Bombeiros
+•	Quantos bombeiros são necessários para distribuição em pontos fixos ao longo do percurso? (Justificar com base em análise de risco e cobertura territorial)
+
+c) Sistema de Identificação de Participantes
+•	Como facilitar a identificação visual de categorias especiais durante a corrida: corredores iniciantes, portadores de condições médicas e participantes da melhor idade? (Utilizar dados demográficos de [ARQUIVO-INSCRITOS])
+
+d) Atendimento em Ponto Remoto
+•	Qual a estratégia para garantir atendimento rápido no ponto mais distante da largada, considerando [ARQUIVO-MAPA] e tempo de deslocamento?
+
+2.2 Gestão da Largada e Recursos Humanos
+Contexto: [Descreva o contexto específico — ex: "Identificou-se efeito cascata decorrente de dimensionamento insuficiente de equipe operacional na edição anterior."]
+
+Questões a serem respondidas:
+a) Dimensionamento de Staffs
+•	Qual o número ideal de colaboradores para atender adequadamente o evento, considerando a variação de [PERCENTUAL]% no número de inscritos ([ANO-HIST]: [NÚMERO] vs [ANO-ATUAL]: [NÚMERO])?
+
+b) Otimização da Organização da Largada
+•	Propor melhorias na organização da largada, utilizando [ARQUIVO-IMAGEM-LARGADA] como referência e dados de dispersão temporal de [ARQUIVO-RESULTADOS]
+
+c) Formatos Alternativos de Largada
+•	Existem modelos de largada alternativos (ex: largada por ondas/baterias) que possam mitigar os riscos identificados na edição anterior?
+
+________________________________________
+3. METODOLOGIA DE ANÁLISE
+
+3.1 ANÁLISES OBRIGATÓRIAS (Executar sequencialmente)
+
+A) Análise Quantitativa
+Diretrizes de Execução:
+•	Executar processamento dos dados, mas não exibir código no relatório final
+•	Apresentar apenas resultados consolidados e interpretações
+
+Processamento de Arquivos:
+1.	[ARQUIVO-RESULTADOS]
+o	Atenção: o arquivo pode conter múltiplas listas de resultados concatenadas por categoria, com numeração reiniciando em '1' a cada categoria. Somar o total de linhas de todas as categorias para obter o número real de concluintes.
+2.	[ARQUIVO-INSCRITOS]
+o	Segmentar por: modalidade, sexo e faixa etária
+
+Indicadores a Extrair:
+•	Comparativo de volume: edição histórica vs edição atual
+•	Distribuição demográfica: modalidade, sexo e faixa etária
+•	Análise temporal (edição histórica):
+o	Tempo médio de conclusão por categoria
+o	Pace médio (min/km) e dispersão de tempos
+o	Tempo do primeiro e último corredor
+o	Concentração de chegadas por faixa horária
+
+B) Mapeamento de Zonas de Risco
+Arquivos Envolvidos:
+•	[ARQUIVO-ALTIMETRIA] (dados altimétricos)
+•	[ARQUIVO-MAPA] (traçado georreferenciado)
+•	[ARQUIVO-GRADIENTE] (visualização de inclinação)
+
+Identificação de "Zonas Vermelhas":
+1.	Subidas Íngremes
+o	Esforço cardíaco agudo elevado
+o	Utilizar o limiar de inclinação definido na Seção 1.2 (ou padrão: > 8%)
+2.	Descidas Acentuadas
+o	Alto impacto articular e risco elevado de quedas
+o	Utilizar o limiar de inclinação definido na Seção 1.2 (ou padrão: > 10%)
+o	Ajustar limiar para > 7% se condições de chuva forem previstas
+
+Estratégia de Posicionamento:
+•	Alocar bombeiros e ambulância adicional priorizando zonas de risco identificadas
+•	Não utilizar apenas critério de equidistância geográfica
+
+C) Dimensionamento de Recursos Humanos
+
+C.1 Equipe de Staffs (Entrega de Kit + Guarda-Volumes)
+Premissas:
+•	Concentração de chegada: 80% dos atletas chegam na última hora antes da largada
+•	Calcular capacidade de atendimento por staff (atendimentos/minuto)
+•	Meta operacional: tempo de espera ≤ 10 minutos
+•	Considerar múltiplos pontos de contato:
+o	Credenciamento
+o	Banheiros
+o	Postos de hidratação
+o	Posicionamento na largada
+
+C.2 Equipe de Bombeiros
+Critérios:
+•	Posicionamento prioritário em zonas de risco (conforme item B)
+•	Análise de tempo de deslocamento até qualquer ponto do percurso
+•	Considerar atribuições: hidratação e atendimento básico
+
+C.3 Ambulâncias
+Análise necessária:
+•	Rota de evacuação para hospital mais próximo
+•	Verificar se ponto escolhido fica "ilhado" pelo fluxo de corredores
+•	Mapear vias transversais para acesso de emergência usando [ARQUIVO-MAPA]
+
+D) Proposta de Largada por Ondas
+Fundamentação:
+•	Calcular densidade de corredores/m² na largada atual (usando [ARQUIVO-IMAGEM-LARGADA])
+•	Segmentar inscritos da edição atual em blocos/ondas baseado em pace médio
+
+Exemplo de Segmentação:
+•	Elite (pace < 4:00 min/km)
+•	Rápidos (4:00 - 5:00 min/km)
+•	Intermediários (5:00 - 6:00 min/km)
+•	Recreativos (> 6:00 min/km)
+•	Caminhada
+
+Objetivo: Mitigar risco de atropelamentos e efeito sanfona na largada
+Base de Cálculo: Utilizar dispersão de pace de [ARQUIVO-RESULTADOS]
+
+________________________________________
+3.2 ANÁLISES COMPLEMENTARES (Condicionadas à disponibilidade de dados)
+
+E) Perfil de Vulnerabilidade
+Fonte: [ARQUIVO-INSCRITOS]
+•	Segmentar inscritos por: faixa etária + sexo + modalidade
+•	Identificar grupos de atenção especial (idosos, menores, iniciantes)
+•	Propor estratégia de hidratação preventiva segmentada
+•	Se condições de calor ou chuva forem previstas, reforçar recomendações para grupos vulneráveis
+
+F) Simulação de Fluxo no Percurso
+Arquivos: [ARQUIVO-RESULTADOS], [ARQUIVO-MAPA], [ARQUIVO-ALTIMETRIA]
+•	Calcular distribuição espacial dos corredores ao longo do tempo
+•	Identificar momento de maior concentração em:
+o	Pontos distantes da largada
+o	Postos de hidratação
+o	Sobreposição de trajetos (se houver modalidades com voltas diferentes)
+Estratégia: Posicionar staffs e bombeiros ANTES da massa de corredores chegar
+
+G) Análise Técnica do Percurso
+Arquivos: [ARQUIVO-MAPA], [ARQUIVO-GRADIENTE], [ARQUIVO-ALTIMETRIA]
+•	Identificar gargalos: trechos estreitos, curvas fechadas
+•	Mapear "zonas cegas": áreas com visibilidade comprometida
+•	Considerar as condições climáticas previstas informadas na Seção 1.2 e sua influência no percurso
+•	Localizar pontos de acesso para veículos de emergência
+
+________________________________________
+4. DIRETRIZES E RESTRIÇÕES
+
+4.1 Restrições Operacionais
+•	✓ Priorizar soluções compatíveis com o orçamento informado na Seção 1.2
+•	✓ NÃO alterar denominações de ruas, nome do evento ou locais estabelecidos
+•	✓ Não exibir código no output final (apenas resultados e interpretações)
+•	✓ Utilizar exclusivamente dados reais dos arquivos fornecidos (não criar estimativas sem fundamento)
+•	✓ Utilizar os limiares de inclinação definidos na Seção 1.2; usar valores padrão somente se não informados
+•	✓ Considerar as condições climáticas previstas em todas as análises de risco
+
+4.2 Formato de Entrega
+Para cada problema listado na Seção 2, fornecer:
+1.	Resposta Objetiva
+o	Número específico ou localização georreferenciada
+2.	Justificativa Técnica
+o	Baseada em dados dos arquivos
+o	Citar arquivo fonte e métrica utilizada
+3.	Alternativa de Baixo Custo
+o	Quando a solução ideal exceder o orçamento disponível
+4.	Plano de Contingência
+o	Para recursos críticos (ex: falha de ambulância, ausência de bombeiro)
+
+________________________________________
+5. ARQUIVOS UTILIZADOS
+•	[NOME-DO-ARQUIVO-RESULTADOS] - Análise de tempos e distribuição de chegadas
+•	[NOME-DA-IMAGEM-LARGADA] - Referência de organização espacial
+•	[NOME-DO-ARQUIVO-REGULAMENTO] - Data e local do evento
+•	[NOME-DO-ARQUIVO-INSCRITOS] - Base de inscritos (anonimizada conforme LGPD)
+•	[NOME-DO-ARQUIVO-MAPA-PERCURSO] - Mapeamento geográfico do trajeto
+•	[NOME-DO-ARQUIVO-ALTIMETRIA] - Dados de elevação do percurso
+•	[NOME-DO-ARQUIVO-GRADIENTE] - Visualização de inclinação do terreno
