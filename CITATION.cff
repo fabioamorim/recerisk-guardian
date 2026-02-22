@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "Se você utilizar este framework em sua pesquisa, por favor cite o trabalho conforme abaixo."
+type: software
+title: "RaceRisk Guardian: Framework de IA para Gestão de Riscos em Corridas de Rua"
+abstract: >
+  Framework de prompt de Inteligência Artificial Generativa para apoio à gestão 
+  de riscos operacionais em projetos de corridas de rua. Estruturado em duas camadas 
+  (perfil do agente e inputs de contexto), o framework processa dados históricos de 
+  eventos, altimetria de percursos e perfil demográfico de participantes para gerar 
+  recomendações fundamentadas sobre dimensionamento de recursos, zonas de risco e 
+  estratégias de largada. Desenvolvido e validado como estudo de caso no TCC do curso 
+  de Gestão de Projetos do Centro Universitário Facens (2025).
+authors:
+  - family-names: "Moraes"
+    given-names: "Cesar"
+    affiliation: "Centro Universitário Facens"
+  - family-names: "Amorim"
+    given-names: "Fabio"
+    affiliation: "Centro Universitário Facens"
+  - family-names: "Britoli"
+    given-names: "Renan"
+    affiliation: "Centro Universitário Facens"
+  - family-names: "Vulcani"
+    given-names: "Rafael"
+    affiliation: "Centro Universitário Facens"
+  - family-names: "Martinatti"
+    given-names: "Vycenzo"
+    affiliation: "Centro Universitário Facens"
+repository-code: "https://github.com/fabioamorim/racerisk-guardian"
+url: "https://github.com/fabioamorim/racerisk-guardian"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-01-24"
+keywords:
+  - inteligência artificial
+  - gestão de riscos
+  - corridas de rua
+  - eventos esportivos
+  - PMBoK
+  - ISO 31000
+  - prompt engineering
+  - agente de IA
+references:
+  - type: article
+    title: "Inteligência Artificial aplicada à Gestão de Riscos: estudo de caso em projetos de corridas de rua"
+    authors:
+      - family-names: "Moraes"
+        given-names: "Cesar"
+      - family-names: "Amorim"
+        given-names: "Fabio"
+      - family-names: "Britoli"
+        given-names: "Renan"
+      - family-names: "Vulcani"
+        given-names: "Rafael"
+      - family-names: "Martinatti"
+        given-names: "Vycenzo"
+      - family-names: "Scala"
+        given-names: "Tiago"
+        role: "orientador"
+    institution:
+      name: "Centro Universitário Facens"
+      city: "Sorocaba"
+      region: "SP"
+      country: "BR"
+    year: 2026
+    month: 1
