@@ -7,7 +7,7 @@ Framework de prompt de IA para gestão de riscos em corridas de rua. Analisa dad
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![TCC Facens](https://img.shields.io/badge/TCC-Facens%202025-orange)](https://www.facens.br)
-[![Status](https://img.shields.io/badge/status-publicado-brightgreen)]()
+[![Status](https://img.shields.io/badge/status-pendente-brightgreen)]()
 
 > Artefato de pesquisa do TCC *"Inteligência Artificial aplicada à Gestão de Riscos em Projetos de Corridas de Rua"*, desenvolvido no Centro Universitário Facens — Sorocaba/SP (2025/2026).
 
