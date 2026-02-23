@@ -4,9 +4,9 @@ Framework de prompt de IA para gestão de riscos em corridas de rua. Analisa dad
 # 🏃 RaceRisk Guardian
 ### Framework de IA para Gestão de Riscos em Corridas de Rua
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![TCC Facens](https://img.shields.io/badge/TCC-Facens%202025-orange)](https://www.facens.br)
-[![Status](https://img.shields.io/badge/status-pendente-brightgreen)]()
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![TCC Facens](https://img.shields.io/badge/TCC-Facens%202025-blue)](https://www.facens.br)
+[![Status](https://img.shields.io/badge/status-pendente-orange)]()
 
 > Artefato de pesquisa do TCC *"Inteligência Artificial aplicada à Gestão de Riscos em Projetos de Corridas de Rua"*, desenvolvido no Centro Universitário Facens — Sorocaba/SP (2025/2026).
 
@@ -65,26 +65,26 @@ O framework opera em duas camadas de prompt que, juntas, configuram um agente es
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  CAMADA 1 — Perfil do Agente  (01-perfil-ia.txt)          │
-│                                                           │
+│  CAMADA 1 — Perfil do Agente  (01-perfil-ia.txt)         │
+│                                                          │
 │  Define identidade, expertise e metodologia do agente.   │
 │  Fundamentado em PMBoK 7ª ed. e ISO 31000.               │
-│  Genérico: funciona para qualquer corrida sem alteração.  │
+│  Genérico: funciona para qualquer corrida sem alteração. │
 └──────────────────────────┬───────────────────────────────┘
                            │
                            ▼
 ┌──────────────────────────────────────────────────────────┐
-│  CAMADA 2 — Inputs de Contexto  (02-inputs.txt)           │
-│                                                           │
+│  CAMADA 2 — Inputs de Contexto  (02-inputs.txt)          │
+│                                                          │
 │  Define os dados do evento, os problemas a resolver      │
 │  e o formato de entrega das respostas.                   │
-│  Específico: deve ser adaptado para cada evento.          │
+│  Específico: deve ser adaptado para cada evento.         │
 └──────────────────────────┬───────────────────────────────┘
                            │
                            ▼
 ┌──────────────────────────────────────────────────────────┐
-│  ARQUIVOS DE DADOS DO EVENTO                              │
-│                                                           │
+│  ARQUIVOS DE DADOS DO EVENTO                             │
+│                                                          │
 │  Resultados históricos · Inscritos · Altimetria          │
 │  Mapa do percurso · Imagens de organização               │
 └──────────────────────────────────────────────────────────┘
@@ -474,4 +474,3 @@ Veja o arquivo [LICENSE](./LICENSE) para o texto completo.
 ---
 
 *Desenvolvido no Centro Universitário Facens — Sorocaba, SP, Brasil — 2025/2026*
->>>>>>> 00ac8a5 (Add files)
